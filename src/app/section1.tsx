@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 
 export const Section1 = () => (
     <div className="w-full py-20 lg:py-40">
