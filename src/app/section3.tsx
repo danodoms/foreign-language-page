@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 export const Section3 = () => (
     <div className="w-full py-20 lg:py-40">
@@ -17,7 +18,14 @@ export const Section3 = () => (
                         </p>
                     </div>
                 </div>
-                <div className="bg-muted rounded-md w-full aspect-video h-full flex-1"></div>
+                <div className="bg-muted rounded-md w-full aspect-video h-full flex-1 relative">
+                    <Image
+                        src="/1.jpeg"
+                        alt="wide"
+                        fill={true}
+                        className="rounded-md object-cover "
+                    />
+                </div>
             </div>
         </div>
     </div>

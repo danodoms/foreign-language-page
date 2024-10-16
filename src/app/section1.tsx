@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 // import { Badge } from "@/components/ui/badge";
+import Image from "next/image"
 
 export const Section1 = () => (
     <div className="w-full py-20 lg:py-40">
@@ -49,7 +50,14 @@ export const Section1 = () => (
                         </div>
                     </div>
                 </div>
-                <div className="bg-muted rounded-md aspect-square"></div>
+                <div className="bg-muted rounded-md aspect-square relative">
+                    <Image
+                        src="/4.jpeg"
+                        alt="wide"
+                        fill={true}
+                        className="rounded-md object-cover "
+                    />
+                </div>
             </div>
         </div>
     </div>
