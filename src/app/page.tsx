@@ -1,4 +1,4 @@
-import { Footer } from "./footer";
+// import { Footer } from "./footer";
 import { Hero } from "./hero";
 import { Section1 } from "./section1";
 import { Section2 } from "./section2";
